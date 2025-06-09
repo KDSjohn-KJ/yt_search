@@ -16,11 +16,14 @@ Os vídeos são salvos automaticamente em:
 Antes de executar o script, instale os seguintes pacotes no Termux:
 
 ```bash
-pkg update && pkg upgrade
-pkg install python ffmpeg jq
-pip install yt-dlp
+pkg update && pkg upgrade -y
+pkg install python ffmpeg jq -y
+pip install yt-dlp -y
+pkg install git -y
 
+# Em seguida use
 
-# Inicie o arquivo
+git clone https://github.com/KDSjohn-KJ/yt_search.git
 
-./yt_downloader.sh
+# Para inicializar utilize
+python yt_search.py
