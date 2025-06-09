@@ -24,6 +24,3 @@ pip install yt-dlp
 # Inicie o arquivo
 
 ./yt_downloader.sh
-
-
-# Dev-KJ
