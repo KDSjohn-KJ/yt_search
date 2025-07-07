@@ -1,6 +1,6 @@
 # 📥 YouTube Downloader via Termux (yt-dlp)
 
-Um script simples e poderoso para baixar vídeos do YouTube diretamente no **Termux**, salvando com nome formatado contendo:
+Um script simple para baixar vídeos do YouTube diretamente no **Termux**, salvando com nome formatado contendo:
 
 - 📅 Data de upload  
 - 👤 Nome do autor  
@@ -26,4 +26,6 @@ pkg install git -y
 git clone https://github.com/KDSjohn-KJ/yt_search.git
 
 # Para inicializar utilize
-python yt_search.py
+chmod +x yt_downloader.py
+python yt_downloader.py
+
