@@ -26,6 +26,6 @@ pkg install git -y
 git clone https://github.com/KDSjohn-KJ/yt_search.git
 
 # Para inicializar utilize
-chmod +x yt_downloader.py
+chmod +x yt_downloader
 python yt_downloader.py
 
